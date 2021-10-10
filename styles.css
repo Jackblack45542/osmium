@@ -1,0 +1,87 @@
+body {
+  text-align: center;
+  background-color: #e2dfd9;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 1px solid rgb(68, 47, 4);
+  font-family: 'Dancing Script', cursive;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  background-color: rgba(114, 153, 235, 0.9);
+}
+header img {
+  height: 100px;
+}
+
+.headline {
+  font-size: 3rem;
+}
+
+nav {
+  position: absolute;
+  right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  color: rgb(153, 0, 0);
+}
+
+main {
+  height: 80vh;
+  background-image: url("../img/istockphoto-1268242083-170667a.jpg");
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drinks {
+  background-color: rgba(114, 153, 235, 0.9);
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+  background-color:  rgba(114, 153, 235, 0.9);
+  padding: 2rem 0;
+  color: #ffffff;
+}
+.cap {
+  height: 400px;
+  justify-self: flex-start;
+  margin-bottom: 2rem;
+  transition: transform .5s ease-in;
+  border-radius: 10px;
+}
+
+.cap:hover {
+  transform: scale(1.1);
+}
+ul {
+  list-style: none;
+  margin-top: 2rem;
+  text-align: center;
+}
+ul li {
+  font-size: 2rem;
+}
+ul li span {
+  color: blue;
+}
+
+h1.headline {
+  color: white;
+}
